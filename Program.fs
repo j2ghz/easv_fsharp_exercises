@@ -147,4 +147,5 @@ let main argv =
     Check.QuickThrowOnFailure (fun p xs -> sum p xs = (xs |> List.where p |> List.sum) )
     assert(maxMonotone [3; 2; 1; 3; 5; 7; 9; 2; 4] = 5)
     assert(palindrome true "rad ar" )
-    fold_example.main
+    //fold_example.main
+    0
