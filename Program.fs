@@ -130,7 +130,7 @@ let reversed s=
                 yield tee.GetTextElement() 
         } |> Array.ofSeq           |> Array.rev |> String.concat ""
 
-let test =
+let test() =
     printfn "%i" (e1_4 4)
     printfn "%i" (e1_5 4)
     printfn "%i" (e2_9 (2,3))
@@ -150,5 +150,6 @@ let test =
 
 [<EntryPoint>]
 let main argv = 
-    WordGuesser.play()
+    while true do
+        WordGuesser.play()
     0
