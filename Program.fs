@@ -150,6 +150,5 @@ let test() =
 
 [<EntryPoint>]
 let main argv = 
-    while true do
-        WordGuesser.play()
+    Compulsory1.test()
     0

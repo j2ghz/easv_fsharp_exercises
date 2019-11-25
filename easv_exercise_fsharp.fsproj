@@ -8,6 +8,7 @@
   <ItemGroup>
     <Compile Include="fold.fs" />
     <Compile Include="WordGuesser.fs" />
+    <Compile Include="Compulsory1.fs"/>
     <Compile Include="Program.fs" />
   </ItemGroup>
 
